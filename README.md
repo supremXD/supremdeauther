@@ -9,5 +9,3 @@ sudo python3 supremdeauther.py
 
 
 I am not responsible for the use you give to the tool. This is for ethical purposes only. Thanks :D !!!
-
-Current version: 2.0
