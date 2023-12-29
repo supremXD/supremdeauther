@@ -1,4 +1,4 @@
-# INSTALLATION for Debian (Kali Linux or Parrot OS)
+# INSTALLATION for Kali Linux or Parrot OS (version 1.2)
 Instalation
 ```bash
 sudo apt update
