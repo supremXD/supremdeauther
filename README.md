@@ -1,5 +1,5 @@
 # INSTALLATION for Kali Linux or Parrot OS (version 1.2)
-Instalation for Kali Linux
+ + Instalation for Kali Linux
 ```bash
 sudo apt update
 sudo apt upgrade
@@ -8,7 +8,7 @@ cd supremdeauther/
 sudo python3 requirements.py
 sudo python3 supremdeauther.py
 ```
-Instalation for Parrot OS
+ + Instalation for Parrot OS
 ```bash
 sudo apt update
 sudo parrot-upgrade
