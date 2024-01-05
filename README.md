@@ -8,7 +8,7 @@ cd supremdeauther/
 sudo python3 requirements.py
 sudo python3 supremdeauther.py
 ```
-+Instalation for Parrot OS
++ Instalation for Parrot OS
 ```bash
 sudo apt update
 sudo parrot-upgrade
