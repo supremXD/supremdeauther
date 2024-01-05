@@ -1,5 +1,5 @@
 # INSTALLATION for Kali Linux or Parrot OS (version 1.2)
- + Instalation for Kali Linux
++ Instalation for Kali Linux
 ```bash
 sudo apt update
 sudo apt upgrade
