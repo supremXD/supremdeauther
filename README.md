@@ -11,6 +11,7 @@ Instalation for Parrot OS
 ```bash
 sudo apt update
 sudo parrot-upgrade
+git clone https://github.com/supremXD/supremdeauther.git && cd supremdeauther
 sudo python3 requirements.py
 sudo python3 supremdeauther.py
 ```
