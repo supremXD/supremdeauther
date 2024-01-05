@@ -3,6 +3,7 @@ Instalation for Kali Linux
 ```bash
 sudo apt update
 sudo apt upgrade
+git clone https://github.com/supremXD/supremdeauther.git && cd supremdeauther
 sudo python3 requirements.py
 sudo python3 supremdeauther.py
 ```
