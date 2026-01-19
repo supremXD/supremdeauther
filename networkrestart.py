@@ -9,16 +9,16 @@ if os.geteuid() != 0:
     sys.exit(1)
 
 
-def NetworkRestart():
+elif os.getuid() !=1:
     red()
-    print("")
-    print("IMPORTANT: DON'T GO AHEAD IF YOUR NETWORK ITS ALREADDY GOOD OR YOUR INTERFACE ITS ALREADY IN MANAGED MODE")
-    print("")
+    print()
+    print("IMPORTANT: DON'T GO AHEAD IF YOUR INTERFACE ITS ALREADY IN MANAGED MODE")
+    print()
     time.sleep(2)
     confirmation = input("Do you want to continue? (y/n) ----> ")
     white()
-    if confirmation == "y":
-        wlan = input("Name of your wifi adapter (Ex: wlan0) here ----> ")
+    if confirmation.lower() == "y":
+        wlan = input("Name of your wifi adapter (Ex: wlan0mon) here ----> ")
         os.system("airmon-ng stop "+wlan+"")
         os.system("systemctl restart NetworkManager.service")
         os.system("ifdown -a")
@@ -26,9 +26,6 @@ def NetworkRestart():
         os.system("clear")
         blue()
         print("Goodbye :D")
-        exit()
-    if confirmation == "n":
-        exit()
-
-
-NetworkRestart()
+        sys.exit()
+    if confirmation.lower() == "n":
+        sys.exit()
